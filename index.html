@@ -3,27 +3,35 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css link  -->
+  <link rel="stylesheet" href="style.css">
+    
   <!-- talwind css link  -->
    <link rel="stylesheet" href="tailwind.css">
-  <!-- css link  -->
-  <link rel="stylesheet" href="style.css">
-  <!-- talilwind cdn -->
+   <!-- talilwind cdn -->
    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-   <!-- font awesome cdn -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 
   <title>TechWave</title>
 </head>
 <body class="font-inter">
   <header>
-    <nav class="bg-[#1A0B2E] flex justify-between items-center px-[200px] py-[16px]">
-      <div class="logo"><h2 class="text-[44px] font-extrabold text-white">Tech<span class="bg-[linear-gradient(20deg,#F7E93F_10%,#FB09B4_40%,#9100F8_65%)] bg-clip-text text-transparent">Wave</span></h2></div>
-      <ul class="text-white flex gap-[32px]">
+    <nav class="bg-[#1A0B2E] flex justify-between items-center px-[20px] lg:px-[100px] xl:px-[200px] py-[8px] lg:py-[16px]">
+      <div class="logo"><h2 class="text-[28px] md:text-[44px] font-extrabold text-white">Tech<span class="bg-[linear-gradient(20deg,#F7E93F_10%,#FB09B4_40%,#9100F8_65%)] bg-clip-text text-transparent">Wave</span></h2></div>
+      <ul class="text-white hidden md:flex  gap-[32px] items-center">
         <li class="inline-block"><a href="" class="">About</a></li>
         <li class="inline-block"><a href="">Episodes</a></li>
         <li class="inline-block"><a href="" class="font-medium">Host</a></li>
       </ul>
-      <button type="button" class="py-[12px] px-[16px] bg-[linear-gradient(25deg,#F7E93F_18%,#FB09B4_50%,#9100F8_85%)] rounded-[200px]"><a href="" class="text-white font-semibold">Subscribe <i class="fa-solid fa-arrow-right"></i></a></button>
+      <button type="button" class="py-[12px] px-[16px] bg-[linear-gradient(25deg,#F7E93F_18%,#FB09B4_50%,#9100F8_85%)] rounded-[200px] hidden md:block"><a href="" class="text-white font-semibold">Subscribe <i class="fa-solid fa-arrow-right"></i></a></button>
+      <!-- <i class="fa-solid fa-bars text-white md:!hidden text-2xl"></i> -->
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 text-white md:!hidden">
+      <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
+
+      
 
     </nav>
   </header>  

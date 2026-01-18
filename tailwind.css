@@ -5,3 +5,7 @@
 .font-inter{
 font-family: "Inter", sans-serif;
 }
+
+ul i{
+  display: none;
+}
