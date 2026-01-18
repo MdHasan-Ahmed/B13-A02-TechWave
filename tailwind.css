@@ -5,3 +5,8 @@
 .font-inter{
 font-family: "Inter", sans-serif;
 }
+
+.hero-img{
+  background-image: url(/assets/hero-circle.png);
+}
+
