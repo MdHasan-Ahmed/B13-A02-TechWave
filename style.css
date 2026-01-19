@@ -54,3 +54,33 @@ font-family: "Inter", sans-serif;
   "exclusive exclusive rich"
   ;
 }
+
+@media screen and (max-width:576px) {
+
+.choose-container{
+  display: grid;
+  gap: 30px;
+  grid-template-columns: 1fr;
+  grid-template-areas: 
+  "headphone"
+  "mobile"
+  "global"
+  "exclusive"
+  "rich"
+  ;
+}
+}
+
+@media screen and (min-width:577px) and (max-width:992px) {
+
+.choose-container{
+  display: grid;
+  gap: 30px;
+  grid-template-columns:1fr 1fr;
+  grid-template-areas: 
+  "headphone mobile"
+  "global exclusive"
+  "rich rich"
+  ;
+}
+}
