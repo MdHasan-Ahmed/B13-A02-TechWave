@@ -14,7 +14,7 @@
   <title>TechWave</title>
 </head>
 <body class="font-inter">
-  <header>
+  <header class="hidden">
     <nav class="bg-[#1A0B2E] flex justify-between items-center px-5 lg:px-25 xl:px-50 py-2 lg:py-4">
       <div class="logo"><h2 class="text-[1.75rem] md:text-[2.75rem] font-extrabold text-white">Tech<span class="bg-[linear-gradient(20deg,#F7E93F_10%,#FB09B4_40%,#9100F8_65%)] bg-clip-text text-transparent">Wave</span></h2></div>
       <ul class="text-white hidden md:flex  gap-8 items-center">
@@ -45,31 +45,32 @@
         </div>
       </div>
     </section>
-
-    <section id="about" class="bg-[#1A0B2E] text-white px-50 pt-12 pb-30 text-center">
+  </header> 
+  
+  <section id="about" class="bg-[#1A0B2E] text-white px-5 lg:px-25 xl:px-50 pt-12 pb-30 text-center">
       <div class="about-content">
         <h2 class="text-5xl font-bold mb-4">About the Podcast</h2>
-        <p class="leading-7 mb-20">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>We break down complex topics into digestible insights, explore productivity strategies that actually work,<br>and share stories of personal growth from industry leaders.<br><br> Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
+        <p class="leading-7 mb-10 lg:mb-20">TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br class="hidden lg:block">We break down complex topics into digestible insights, explore productivity strategies that actually work,<br class="hidden xl:block">and share stories of personal growth from industry leaders.<br class=""><br> Join thousands of young professionals and tech enthusiasts who start their day with TechWave.</p>
       </div>
-      <hr class="opacity-5 border mb-20">
-      <div class="about-card-container grid grid-cols-4">
+      <hr class="opacity-5 border mb-10 lg:mb-20">
+      <div class="about-card-container grid grid-cols-2 xl:grid-cols-4 gap-10 xl:gap-20 items-center justify-between">
         <div class="about-card text-center">
-          <h2 class="font-black text-5xl text-[#00FF88] mb-4">150K+</h2>
+          <h2 class="font-black text-[2.5rem] xl:text-5xl text-[#00FF88] mb-4 tracking-wider">150K+</h2>
           <p class="uppercase">Monthly Listeners</p>
         </div>
 
         <div class="about-card text-center">
-          <h2 class="font-black text-5xl text-[#00FF88] mb-4">200+</h2>
+          <h2 class="font-black text-[2.5rem] xl:text-5xl text-[#00FF88] mb-4 tracking-wider">200+</h2>
           <p class="uppercase">Episodes Published</p>
         </div>
 
         <div class="about-card text-center">
-          <h2 class="font-black text-5xl text-[#00FF88] mb-4">4.9★</h2>
+          <h2 class="font-black text-[2.5rem] xl:text-5xl text-[#00FF88] mb-4 tracking-wider">4.9★</h2>
           <p class="uppercase">Average Rating</p>
         </div>
 
         <div class="about-card text-center">
-          <h2 class="font-black text-5xl text-[#00FF88] mb-4">50+</h2>
+          <h2 class="font-black text-[2.5rem] xl:text-5xl text-[#00FF88] mb-4 tracking-wider">50+</h2>
           <p class="uppercase">Industry Experts</p>
         </div>
         <div class="about-card"></div>
@@ -78,6 +79,5 @@
       </div>
 
     </section>
-  </header>  
 </body>
 </html>
