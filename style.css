@@ -22,7 +22,6 @@ font-family: "Inter", sans-serif;
 
 .headphone-card{
   grid-area: headphone;
-  max-width: 23.75%;
   display:flex;
   flex-direction: column;
   align-items: center;
@@ -31,27 +30,24 @@ font-family: "Inter", sans-serif;
 
 .mobile-card{
   grid-area: mobile;
-  max-width:790px;
 }
 
 .global-card{
   grid-area: global;
-  max-width:790px;
 }
 
 .exclusive-card{
   grid-area: exclusive;
-  max-width:790px;
 }
 
 .rich-card{
   grid-area: rich;
-  max-width: 380px;
 }
 
 .choose-container{
   display: grid;
   gap: 30px;
+  grid-template-columns: 380px 1fr 1fr;
   grid-template-areas: 
   "headphone mobile mobile"
   "headphone global global"
