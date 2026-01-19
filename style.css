@@ -55,6 +55,56 @@ font-family: "Inter", sans-serif;
   ;
 }
 
+footer{
+  background-image: url(assets/footer-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.subscribe{
+  transition: ease-in-out .3s;
+}
+
+.subscribe:hover{
+  transform: scale(1.1);
+}
+
+li{
+  transition: ease-in-out .3s;
+}
+
+li:hover{
+  background-color: rgb(180, 8, 248);
+  border-radius: 40px;
+  padding-top: 12px;
+  padding-bottom:12px;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.microphone{
+  transition: ease-in-out .3s;
+}
+
+.hero-img:hover .microphone{
+  transform: scale(1.1);
+}
+
+.hero-img span{
+  transition: ease-in-out .3s;
+}
+
+.hero-img span:hover{
+  transform: scale(1.1);
+}
+.card{
+  transition: ease-in-out .3s;
+}
+
+.card:hover{
+  transform: translateY(-10px);
+}
+
 @media screen and (max-width:576px) {
 
 .choose-container{
