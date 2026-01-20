@@ -120,11 +120,19 @@ li:hover{
   ;
 }
 
+
 footer{
   background-image: url(assets/footer-bg.png);
   background-repeat: no-repeat;
   height: 248px;
   background-position: center;
+}
+
+#hero{
+  background-image: url("assets/hero-bg.png");
+  height: 466px;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 
