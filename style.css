@@ -105,6 +105,13 @@ li:hover{
 .card:hover{
   transform: translateY(-10px);
 }
+.host-icon{
+  transition: ease-in-out .2s;
+}
+
+.host-icon:hover{
+  transform:scale(1.1);
+}
 
 @media screen and (max-width:576px) {
 
